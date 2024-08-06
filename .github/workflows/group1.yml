@@ -1,0 +1,9 @@
+name: Group1_cicd
+run-name: testing github actions exercise
+on: [push]
+jobs: 
+ test-GithubActions:
+  runs-on: ubuntu-latest
+  steps:
+    - run: echo "Hello world"
+    - run: echo "Akram Mpagi, Isaac Kalumba"
